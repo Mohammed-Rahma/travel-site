@@ -1,0 +1,50 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(112,112, 112);
+   
+}
+body{
+    margin: 0px;
+}
+#page-header{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem 10%;
+}
+#page-header #logo{
+    flex: 1;
+}
+#page-header nav{
+    display:flex;
+}
+#page-header nav > a{
+color: #fff ;
+text-transform: uppercase;
+padding: 0.5rem;
+margin: 0 1rem;
+}
+a{
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+ #page-header nav.social-linke a{
+    margin: 0 5px;
+}
+#hero{
+    height: 100vh;
+    background-image: url(../images/background.jpg);
+    background-position:50% 0 ;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+#hero h1{
+    margin: 0px;
+}
+.overlay{
+    background-color: rgba(14,15,21,0.55);
+    height: 100%;
+    width: 100vw;
+}
