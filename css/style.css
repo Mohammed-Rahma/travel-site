@@ -1,0 +1,123 @@
+/* @font-face {
+    font-family:"Montserrat";
+    src: url(../fonts/Montserrat-BoldItalic.woff);
+} */
+/* @import url(fonts.css); */
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Caveat Italic', cursive;
+    font-family: 'Patrick Hand Italic', cursive;
+        /* font-family: 'Montserrat Thin Italic',Arial, Helvetica, sans-serif; */
+    font-size: 14px;
+    color: rgb(112,112, 112);
+}
+body{
+    margin: 0px;
+}
+#page-header{
+    background-color:transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1.5rem 10%;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    border-bottom: 1px solid rgba(255,255,255,.1);
+
+}
+#page-header #logo{
+    flex: 1;
+}
+#page-header nav{
+    display:flex;
+}
+#page-header nav > a{
+color: #fff ;
+text-transform: uppercase;
+padding: 0.5rem;
+margin: 0 1rem;
+}
+a{
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+ #page-header nav.social-linke a{
+    margin: 0 5px;
+}
+#hero{
+    height: 100vh;
+    background-image: url(../images/background.jpg);
+    background-position:50% 0 ;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+#hero h1{
+    margin: 0px;
+    text-align: center;
+    color: #fff;
+}
+#hero h1 span.first{
+    display: block;
+    font-size: 5rem;
+    font-weight: normal;
+    letter-spacing: 3px;
+}
+#hero h1 span.last{
+    display: block;
+    font-size:15rem;
+    margin-top: -50px;
+    /* text-shadow: 7px 7px 5px #999; */
+}
+.overlay{
+    background-color: rgba(14,15,21,0.55);
+    height: 100%;
+    width: 100vw;
+    align-items: center;
+   
+}
+.center-block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#hero .hero-box{
+    position: relative;
+}
+#hero .pricing {
+    width: 120px;
+    height: 120px;
+    border-radius: 150px ;
+    background-color:#ffd800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #000;
+    text-transform: uppercase;
+    position:absolute;
+    top: -10px;
+    right: -30px;
+}
+.pricing-value{
+font-weight: bold;
+font-size: 32px;
+}
+.book-now a{
+    border-radius:2rem;
+    padding: 1rem 2.5rem;
+    background-color: #f26149;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.book-now a:hover{
+   padding: 1rem 3rem;
+   box-shadow:0px 0px 10px #999; 
+}
+.book-now{
+    text-align: center;
+    margin-top: 3rem;
+}
